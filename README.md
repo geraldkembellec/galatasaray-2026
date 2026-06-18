@@ -17,10 +17,13 @@ On installe le logiciel [OpenRefine](https://openrefine.org/download) pour augme
 le *plugin* [OSDS](https://osds.openlinksw.com/) dans son navigateur pour tester nos résulats.
 
 ### Démo d'intro.
-On regarde 2 pages créées pour l'occasion, la [correspondance de Constance de Salm](https://geraldkembellec.github.io/master-ctm/m2/html-semantique/constance-de-salm.html) et une petite page sur [St Augustin de Cantorbéry](https://geraldkembellec.github.io/master-ctm/m2/html-semantique/historicalFact2-Saint-Augustin.html). Ces pages ont été enrichies pour le RAG. 
+
+Premièrement on essaie de comprendre la vision de l'auteur (Gérald Kembellec) qui est d'accord avec Pierre Levy : [https://github.com/geraldkembellec/test](https://github.com/geraldkembellec/test)
+
+On regarde ensuite 2 pages créées pour l'occasion, la [correspondance de Constance de Salm](https://geraldkembellec.github.io/master-ctm/m2/html-semantique/constance-de-salm.html) et une petite page sur [St Augustin de Cantorbéry](https://geraldkembellec.github.io/master-ctm/m2/html-semantique/historicalFact2-Saint-Augustin.html). Ces pages ont été enrichies pour le RAG. 
 
 On part d'une simple page : [https://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/siel2026/)
-Je dedande à une IA de créer une page Web documentée d'un "Event" de Workshop à l'Université de Galatasaray présentée par une "*Person*" Gérald Kembellec (sous la forme d'ISNI / ORCI), avec un titre, une image, un résumé.
+Je demande à une IA de créer une page Web documentée d'un "Event" de Workshop à l'Université de Galatasaray présentée par une "*Person*" Gérald Kembellec (sous la forme d'ISNI / ORCI), avec un titre, une image, un résumé.
 
 Prenons quelques personnes :
 ```CSV
@@ -55,4 +58,5 @@ On mettra les données en formes avec une IA sous la forme de microdonnées ou d
 Puis on intègre tout ça dans une page Web publiée en ligne. On la vérifie.
 
 Et après, on fait un agent IA qui fait ça à notre place?
-
+Pour mieux comprendre : 
+[https://shs.cairn.info/revue-hermes-la-revue-2021-1-page-145](https://shs.cairn.info/revue-hermes-la-revue-2021-1-page-145)
