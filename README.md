@@ -15,10 +15,9 @@ Nous allons réaliser un *pipeline* en humanités numériques et données cultur
 ## 
 On installe le logiciel [OpenRefine](https://openrefine.org/download) pour augmenter, qualifier et desambiguiser nos contenues
 le *plugin* [OSDS](https://osds.openlinksw.com/) dans son navigateur pour tester nos résulats.
-... et 
 
 ### Démo d'intro.
-On regarde 2 pages créées pour l'occasion, la correspondance de Constance de Salm et une petite page sur St Augustin. Ces pages ont été enrichies pour le RAG. 
+On regarde 2 pages créées pour l'occasion, la correspondance de Constance de Salm et une petite page sur [St Augustin](https://geraldkembellec.github.io/master-ctm/m2/html-semantique/historicalFact2-Saint-Augustin.html). Ces pages ont été enrichies pour le RAG. 
 
 On part d'une simple page : [https://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/siel2026/)
 Je dedande à une IA de créer une page Web documentée d'un "Event" de Workshop à l'Université de Galatasaray présentée par une "*Person*" Gérald Kembellec (sous la forme d'ISNI / ORCI), avec un titre, une image, un résumé.
