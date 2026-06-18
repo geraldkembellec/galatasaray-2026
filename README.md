@@ -18,7 +18,7 @@ le *plugin* [OSDS](https://osds.openlinksw.com/) dans son navigateur pour tester
 ... et 
 
 ### Démo d'intro.
-On regarde 
+On regarde 2 pages créées pour l'occasion, la correspondance de Constance de Salm et une petite page sur St Augustin. Ces pages ont été enrichies pour le RAG. 
 
 On part d'une simple page : [https://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/siel2026/)
 Je dedande à une IA de créer une page Web documentée d'un "Event" de Workshop à l'Université de Galatasaray présentée par une "*Person*" Gérald Kembellec (sous la forme d'ISNI / ORCI), avec un titre, une image, un résumé.
