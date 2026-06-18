@@ -1,7 +1,7 @@
 # galatasaray-2026
 ## *Digital Humanity Workshop* / *Linked open data* et culture
 
-L'ojectif est de présenter des informations des humanités issues d'un corpus collaboratif initialement très pauvre, mais qui va être augmenté, qualifé, structuré et validé par des actions combinées d'humains et de récupération automatisée de contenus issues de Wikidata.
+L'ojectif est de présenter des informations des humanités issues d'un corpus collaboratif initialement très pauvre et incomplet, mais qui va être augmenté, qualifé, structuré et validé par des actions combinées d'humains et de récupération automatisée de contenus issues de Wikidata.
 
 Nous allons réaliser un *pipeline* en humanités numériques et données culturelles [GLAM](https://fr.wikipedia.org/wiki/GLAM_(culture) '*Galleries, Libraries, Archives and Museums*' ) qui soit compréhensible et documenté à la fois pour les humains et les IA (en contexte de [RAG](https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9ration_%C3%A0_enrichissement_contextuel 'Génération à enrichissement contextuel')).
 
