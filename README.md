@@ -2,14 +2,15 @@
 ## *Digital Humanity Workshop* / *Linked open data* et culture
 
 Nous allons réaliser un *pipeline* en humanités numériques et données culturelles [GLAM](https://fr.wikipedia.org/wiki/GLAM_(culture) '*Galleries, Libraries, Archives and Museums*' ) qui soit compréhensible et documenté à la fois pour les humains et les IA (en contexte de RAG).
-On installe le *plugin* [OSDS](https://osds.openlinksw.com/) dans son navigateur.
-... et le logiciel [OSDS](https://openrefine.org/download) pour tester nos résulats
 
 Nous allons mobiliser pour cela :
 - Les autorités : ISNI, ORCID...
 - Le modèle du Web sémantique, le RDF : Sujet, Predicat, Objet [https://fr.wikipedia.org/wiki/Resource_Description_Framework](https://fr.wikipedia.org/wiki/Resource_Description_Framework)
 - Les schémas de "modélisation" de [schema.org](http://schema.org)
-  
+
+On installe le *plugin* [OSDS](https://osds.openlinksw.com/) dans son navigateur.
+... et le logiciel [OSDS](https://openrefine.org/download) pour tester nos résulats
+
 ### Démo d'intro.
 On part d'une simple page : [https://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/siel2026/)
 Je dedande à une IA de créer une page Web documentée d'un "Event" de Workshop à l'Univitesité de Galatasaray présentée par une "*Person*" Gérald Kembellec (sous la forme d'ISNI / ORCI), avec un titre, une image, un résumé.
