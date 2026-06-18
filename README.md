@@ -1,5 +1,5 @@
 # galatasaray-2026
-## Digital Humanity Workshop / Linked open data et culture
+## *Digital Humanity Workshop* / *Linked open data* et culture
 
 Nous allons réaliser un *pipeline* en humanités numériques et données culturelles [GLAM](https://fr.wikipedia.org/wiki/GLAM_(culture) '*Galleries, Libraries, Archives and Museums*' )
 On installe le *plugin* [OSDS](https://osds.openlinksw.com/) dans son navigateur.
