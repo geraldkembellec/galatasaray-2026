@@ -1,15 +1,21 @@
 # galatasaray-2026
 ## *Digital Humanity Workshop* / *Linked open data* et culture
 
+L'ojectif est de présenter des informations des humanités issues d'un corpus collaboratif initialement très pauvre, mais qui va être augmenté, qualifé, structuré et validé par des actions combinées d'humains et de récupération automatisée de contenus issues de Wikidata.
+
 Nous allons réaliser un *pipeline* en humanités numériques et données culturelles [GLAM](https://fr.wikipedia.org/wiki/GLAM_(culture) '*Galleries, Libraries, Archives and Museums*' ) qui soit compréhensible et documenté à la fois pour les humains et les IA (en contexte de RAG).
 
-Nous allons mobiliser pour cela :
+
+## Nous allons mobiliser pour cela :
 - Les autorités : ISNI, ORCID...
 - Le modèle du Web sémantique, le RDF : Sujet, Predicat, Objet [https://fr.wikipedia.org/wiki/Resource_Description_Framework](https://fr.wikipedia.org/wiki/Resource_Description_Framework)
 - Les schémas de "modélisation" de [schema.org](http://schema.org)
+- Des sources de données "fiables" car consolidées par un arbitrage humain érudit (et parfois de manière collégiale)
 
-On installe le *plugin* [OSDS](https://osds.openlinksw.com/) dans son navigateur.
-... et le logiciel [OSDS](https://openrefine.org/download) pour tester nos résulats
+## 
+On installe le logiciel [OpenRefine](https://openrefine.org/download) pour augmenter, qualifier et desambiguiser nos contenues
+le *plugin* [OSDS](https://osds.openlinksw.com/) dans son navigateur pour tester nos résulats.
+... et 
 
 ### Démo d'intro.
 On part d'une simple page : [https://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/siel2026/)
