@@ -1,10 +1,13 @@
 # galatasaray-2026
 ## Digital Humanity Workshop / Linked open data et culture
-On installe [OSDS](https://osds.openlinksw.com/) dans son navigateur.
+
+Nous allons réaliser un *pipeline* en humanités numériques et données culturelles [GLAM](https://fr.wikipedia.org/wiki/GLAM_(culture) '*Galleries, Libraries, Archives and Museums*' )
+On installe le *plugin* [OSDS](https://osds.openlinksw.com/) dans son navigateur.
+... et le logiciel [OSDS](https://openrefine.org/download) pour 
 
 ### Démo d'intro.
 On part d'une simple page : [https://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/siel2026/)
-Je demdande à une IA de créer une page Web documentée d'un "Event" de Workshop à l'Univitesité de Galatasaray présentée par une "*Person*" Gérald Kembellec (sous la forme d'ISNI / ORCI), avec un titre, une image, un résumé.
+Je dedande à une IA de créer une page Web documentée d'un "Event" de Workshop à l'Univitesité de Galatasaray présentée par une "*Person*" Gérald Kembellec (sous la forme d'ISNI / ORCI), avec un titre, une image, un résumé.
 
 Prenons quelques personnes :
 ```CSV
