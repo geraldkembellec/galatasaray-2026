@@ -28,7 +28,7 @@ Je demande à une IA de créer une page Web documentée d'un "Event" de Workshop
 Prenons quelques personnes :
 ```CSV
 Designation,Name,Surname,Alias,Picture,WP_url,WD_id
-Humbaracı Ahmet Paşa,Claude,Alexandre,Comte de Bonneval,https://fr.wikipedia.org/wiki/Claude_Alexandre_de_Bonneval,Q701714
+Humbaracı Ahmet Paşa,Claude,Alexandre,Comte de Bonneval,https://fr.wikipedia.org/wiki/Claude_Alexandre_de_Bonneval,https://www.wikidata.org/wiki/Q701714#/media/File:Bonneval-pasha.jpg,Q701714
 ```
 
 Nous proposons de préparer des information "fiables" à partir du schéma de données de schema.org.
