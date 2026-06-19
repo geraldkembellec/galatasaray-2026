@@ -21,8 +21,6 @@ Premièrement on essaie de comprendre la vision de l'auteur (Gérald Kembellec) 
 
 On regarde ensuite 2 pages créées pour l'occasion, la [correspondance de Constance de Salm](https://geraldkembellec.github.io/master-ctm/m2/html-semantique/constance-de-salm.html) et une petite page sur [St Augustin de Cantorbéry](https://geraldkembellec.github.io/master-ctm/m2/html-semantique/historicalFact2-Saint-Augustin.html). Ces pages ont été enrichies pour le RAG. 
 
-On part d'une simple page : [https://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/galatasaray-2026/)
-
 
 Prenons quelques personnes :
 ```CSV
@@ -38,12 +36,12 @@ Ex. la page de *Ibn Battuta* aura pour
 - URN : Q7331
 - URI : https://www.wikidata.org/wiki/Q7331
 et il pourra être décrit avec le schéma : Person
-Grace à *OpenRefine* on pourra aussi connaitre son "occupation", ses dates et lieux de naissance, de mort, son oeuvre principale...
+Grace à *OpenRefine* on pourra aussi connaitre son "occupation" ...
 
 Les jeux seront publiés ici :
 - Les personnes ;
-- Les faits ;
-- les lieux.
+
+On part d'une simple page : [h[ttps://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/galatasaray-2026/)](https://geraldkembellec.github.io/galatasaray-2026/)
 
 On mettra les données en formes avec une IA sous la forme de microdonnées ou de *json-ld* (... et on va vérifier avec [OSDS](https://osds.openlinksw.com/) et le [validateur de schema.org](https://validator.schema.org/)).
 
