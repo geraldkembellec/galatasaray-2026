@@ -31,7 +31,30 @@ Read every row of the CSV file.
 Each row represents one historical person.
 Generate one semantic card per person.
 Extract and display all available fields.
+
+  - ``` <section
+    ```  class="person-card"
+    ```      itemscope
+     ```     itemtype="https://schema.org/Person">
+  
 If a Wikidata identifier is present, automatically create:  
   - ``` <link itemprop="sameAs" href="https://www.wikidata.org/entity/QXXXXXX">
   - ``` <meta itemprop="identifier" content="Wikidata:QXXXXXX">
-  - 
+
+Include whenever available:
+```html  itemprop="name"
+  itemprop="alternateName"
+  itemprop="description"
+  itemprop="birthDate"
+  itemprop="deathDate"
+  itemprop="birthPlace"
+  itemprop="deathPlace"
+  itemprop="nationality"
+  itemprop="jobTitle"
+  itemprop="image"
+  itemprop="sameAs"
+  itemprop="identifier"
+  itemprop="knowsAbout"
+  itemprop="subjectOf"
+```
+  
