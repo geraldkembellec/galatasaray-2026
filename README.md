@@ -28,13 +28,6 @@ Je demande à une IA de créer une page Web documentée d'un "Event" de Workshop
 Prenons quelques personnes :
 ```CSV
 Designation,Name,Surname,Alias,Picture,WP_url,WD_id
-Evliya Çelebi,Evliya,Çelebi,,,,
-Katip Çelebi,Katip,Çelebi,,,
-Ahmet Cevdet Paşa,,,,,,
-Hezarfen Ahmet Çelebi,,,
-Halit Ziya Uşaklıgil,,,
-Orhan Veli Kanık,,,,,
-Barbaros Hayrettin,,,,,,
 Humbaracı Ahmet Paşa,Claude,Alexandre Comte de Bonneval,https://fr.wikipedia.org/wiki/Claude_Alexandre_de_Bonneval
 ```
 
