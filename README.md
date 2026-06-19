@@ -43,7 +43,7 @@ Les jeux seront publiés ici :
 
 On mettra les données en formes avec une IA sous la forme de microdonnées ou de *json-ld* (... et on va vérifier avec [OSDS](https://osds.openlinksw.com/) et le [validateur de schema.org](https://validator.schema.org/)).
 
-Puis on intègre tout ça dans une page Web publiée en ligne (https://geraldkembellec.github.io/galatasaray-2026/)](https://geraldkembellec.github.io/galatasaray-2026/)
+Puis on intègre tout ça dans une page Web publiée en ligne [https://geraldkembellec.github.io/galatasaray-2026/](https://geraldkembellec.github.io/galatasaray-2026/)
 On la vérifie avec *OSDS*.
 
 Et après, on fait un agent IA qui fait ça à notre place?
