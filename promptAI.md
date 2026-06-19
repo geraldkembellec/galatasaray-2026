@@ -18,9 +18,9 @@ The page must be simultaneously:
 ## Dataset Processing
 Read every row of the CSV file.
 Use : 
-``HTML
+``` HTML
   <!DOCTYPE html> <html lang="en">
-  
+``` 
 Each row represents one historical person.
 Generate one semantic card per person.
 Extract and display all available fields.
