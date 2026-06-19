@@ -1,0 +1,1751 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galatasaray 2026 Semantic Corpus</title>
+  <meta name="description" content="Semantic Web and AI-ready corpus of historical persons from the Galatasaray 2026 dataset.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="generator" content="Perplexity">
+  <link rel="canonical" href="./galatasaray-2026-semantic-corpus.html">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&f[]=zodiak@400,500,700&display=swap" rel="stylesheet">
+  <style>
+    :root, [data-theme="light"] {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+      --text-3xl: clamp(2.5rem, 1rem + 4vw, 5rem);
+      --text-hero: clamp(3rem, 0.5rem + 7vw, 8rem);
+
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.25rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+      --space-20: 5rem;
+      --space-24: 6rem;
+      --space-32: 8rem;
+
+      --color-bg: #f7f6f2;
+      --color-surface: #f9f8f5;
+      --color-surface-2: #fbfbf9;
+      --color-surface-offset: #f3f0ec;
+      --color-surface-offset-2: #edeae5;
+      --color-surface-dynamic: #e6e4df;
+      --color-divider: #dcd9d5;
+      --color-border: #d4d1ca;
+      --color-text: #28251d;
+      --color-text-muted: #6c6961;
+      --color-text-faint: #9c988f;
+      --color-text-inverse: #f9f8f4;
+      --color-primary: #01696f;
+      --color-primary-hover: #0c4e54;
+      --color-primary-active: #0f3638;
+      --color-primary-highlight: #cedcd8;
+      --color-gold: #b98710;
+      --color-blue: #006494;
+      --radius-sm: 0.375rem;
+      --radius-md: 0.5rem;
+      --radius-lg: 0.75rem;
+      --radius-xl: 1rem;
+      --radius-full: 9999px;
+      --transition-interactive: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+      --shadow-sm: 0 1px 2px oklch(0.2 0.01 80 / 0.06);
+      --shadow-md: 0 4px 12px oklch(0.2 0.01 80 / 0.08);
+      --shadow-lg: 0 12px 32px oklch(0.2 0.01 80 / 0.12);
+      --content-narrow: 640px;
+      --content-default: 1080px;
+      --content-wide: 1280px;
+      --font-display: "Zodiak", Georgia, serif;
+      --font-body: "General Sans", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    [data-theme="dark"] {
+      --color-bg: #171614;
+      --color-surface: #1c1b19;
+      --color-surface-2: #201f1d;
+      --color-surface-offset: #1d1c1a;
+      --color-surface-offset-2: #22211f;
+      --color-surface-dynamic: #2d2c2a;
+      --color-divider: #262523;
+      --color-border: #393836;
+      --color-text: #e4e0d8;
+      --color-text-muted: #b7b1a6;
+      --color-text-faint: #807a70;
+      --color-text-inverse: #1b1a18;
+      --color-primary: #4f98a3;
+      --color-primary-hover: #63acb7;
+      --color-primary-active: #2e737d;
+      --color-primary-highlight: #313b3b;
+      --color-gold: #e0b14c;
+      --color-blue: #6ca8d9;
+      --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.2);
+      --shadow-md: 0 4px 12px oklch(0 0 0 / 0.3);
+      --shadow-lg: 0 12px 32px oklch(0 0 0 / 0.4);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html:not([data-theme="light"]) {
+        --color-bg: #171614;
+        --color-surface: #1c1b19;
+        --color-surface-2: #201f1d;
+        --color-surface-offset: #1d1c1a;
+        --color-surface-offset-2: #22211f;
+        --color-surface-dynamic: #2d2c2a;
+        --color-divider: #262523;
+        --color-border: #393836;
+        --color-text: #e4e0d8;
+        --color-text-muted: #b7b1a6;
+        --color-text-faint: #807a70;
+        --color-text-inverse: #1b1a18;
+        --color-primary: #4f98a3;
+        --color-primary-hover: #63acb7;
+        --color-primary-active: #2e737d;
+        --color-primary-highlight: #313b3b;
+        --color-gold: #e0b14c;
+        --color-blue: #6ca8d9;
+        --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.2);
+        --shadow-md: 0 4px 12px oklch(0 0 0 / 0.3);
+        --shadow-lg: 0 12px 32px oklch(0 0 0 / 0.4);
+      }
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      -moz-text-size-adjust: none;
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      scroll-behavior: smooth;
+      hanging-punctuation: first last;
+      scroll-padding-top: var(--space-16);
+    }
+
+    body {
+      min-height: 100dvh;
+      line-height: 1.6;
+      font-family: var(--font-body, sans-serif);
+      font-size: var(--text-base);
+      color: var(--color-text);
+      background:
+        radial-gradient(circle at top left, color-mix(in oklab, var(--color-primary) 8%, transparent), transparent 34%),
+        radial-gradient(circle at top right, color-mix(in oklab, var(--color-gold) 10%, transparent), transparent 28%),
+        var(--color-bg);
+    }
+
+    img, picture, video, canvas, svg { display: block; max-width: 100%; height: auto; }
+    input, button, textarea, select { font: inherit; color: inherit; }
+    h1, h2, h3, h4, h5, h6 { text-wrap: balance; line-height: 1.1; }
+    p, li, figcaption { text-wrap: pretty; max-width: 72ch; }
+    a, button, [role="button"], [role="link"], input, textarea, select {
+      transition: color var(--transition-interactive), background var(--transition-interactive), border-color var(--transition-interactive), box-shadow var(--transition-interactive), transform var(--transition-interactive);
+    }
+    ::selection {
+      background: oklch(from var(--color-primary) l c h / 0.25);
+      color: var(--color-text);
+    }
+    :focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 3px;
+      border-radius: var(--radius-sm);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: var(--space-4);
+      top: var(--space-4);
+      z-index: 1000;
+      padding: var(--space-3) var(--space-4);
+      background: var(--color-primary);
+      color: var(--color-text-inverse);
+      text-decoration: none;
+      border-radius: var(--radius-full);
+      transform: translateY(-200%);
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(16px);
+      background: color-mix(in oklab, var(--color-bg) 78%, transparent);
+      border-bottom: 1px solid oklch(from var(--color-text) l c h / 0.12);
+    }
+
+    .header-inner,
+    .hero-inner,
+    .section-inner,
+    .footer-inner {
+      width: min(calc(100% - 2rem), var(--content-wide));
+      margin-inline: auto;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      min-height: 4.5rem;
+      padding-block: var(--space-3);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-3);
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 2.5rem;
+      height: 2.5rem;
+      padding: 0.375rem;
+      border-radius: var(--radius-full);
+      border: 1px solid oklch(from var(--color-text) l c h / 0.12);
+      background: linear-gradient(135deg, color-mix(in oklab, var(--color-primary) 18%, var(--color-surface)), color-mix(in oklab, var(--color-gold) 20%, var(--color-surface)));
+      box-shadow: var(--shadow-sm);
+      color: var(--color-primary-active);
+    }
+
+    .brand-text strong,
+    .hero-title,
+    .section-title,
+    .person-name {
+      font-family: var(--font-display, serif);
+    }
+
+    .brand-text strong {
+      display: block;
+      font-size: var(--text-sm);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .brand-text span {
+      display: block;
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .theme-toggle,
+    .view-toggle,
+    .search-input {
+      min-height: 44px;
+      border-radius: var(--radius-full);
+      border: 1px solid oklch(from var(--color-text) l c h / 0.12);
+      background: color-mix(in oklab, var(--color-surface) 88%, transparent);
+    }
+
+    .theme-toggle,
+    .view-toggle {
+      min-width: 44px;
+      padding: 0 var(--space-4);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      cursor: pointer;
+    }
+
+    .theme-toggle:hover,
+    .view-toggle:hover {
+      background: var(--color-surface-offset);
+      transform: translateY(-1px);
+    }
+
+    .hero {
+      padding-block: clamp(var(--space-10), 10vw, var(--space-24));
+      border-bottom: 1px solid var(--color-divider);
+    }
+
+    .hero-inner {
+      display: grid;
+      gap: var(--space-8);
+      align-items: end;
+    }
+
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      width: fit-content;
+      padding: var(--space-2) var(--space-4);
+      border-radius: var(--radius-full);
+      background: color-mix(in oklab, var(--color-primary) 10%, var(--color-surface));
+      color: var(--color-primary-active);
+      font-size: var(--text-xs);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .hero-title {
+      font-size: clamp(2.8rem, 2rem + 5vw, 5.5rem);
+      max-width: 13ch;
+      margin-top: var(--space-4);
+    }
+
+    .hero-copy {
+      font-size: var(--text-lg);
+      color: var(--color-text-muted);
+      max-width: 60ch;
+      margin-top: var(--space-4);
+    }
+
+    .hero-meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+      gap: var(--space-4);
+      margin-top: var(--space-8);
+    }
+
+    .meta-pill {
+      padding: var(--space-4);
+      border-radius: var(--radius-lg);
+      background: color-mix(in oklab, var(--color-surface) 92%, transparent);
+      border: 1px solid oklch(from var(--color-text) l c h / 0.1);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .meta-pill .label {
+      display: block;
+      font-size: var(--text-xs);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      margin-bottom: var(--space-2);
+    }
+
+    .meta-pill .value {
+      font-size: var(--text-lg);
+      font-weight: 600;
+    }
+
+    .controls {
+      padding-block: var(--space-8);
+      border-bottom: 1px solid var(--color-divider);
+    }
+
+    .controls-grid {
+      display: grid;
+      gap: var(--space-4);
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
+
+    .search-wrap {
+      position: relative;
+    }
+
+    .search-wrap svg {
+      position: absolute;
+      left: var(--space-4);
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1rem;
+      height: 1rem;
+      color: var(--color-text-muted);
+      pointer-events: none;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0 var(--space-4) 0 calc(var(--space-4) + 1.5rem + var(--space-2));
+      color: var(--color-text);
+      background: color-mix(in oklab, var(--color-surface) 90%, transparent);
+    }
+
+    .search-input::placeholder {
+      color: var(--color-text-faint);
+    }
+
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+
+    .filter-chip {
+      min-height: 44px;
+      padding: 0 var(--space-4);
+      border-radius: var(--radius-full);
+      border: 1px solid oklch(from var(--color-text) l c h / 0.12);
+      background: var(--color-surface);
+      color: var(--color-text-muted);
+      cursor: pointer;
+    }
+
+    .filter-chip[aria-pressed="true"] {
+      background: var(--color-primary);
+      color: var(--color-text-inverse);
+      border-color: var(--color-primary);
+    }
+
+    .corpus {
+      padding-block: clamp(var(--space-8), 7vw, var(--space-20));
+    }
+
+    .section-heading {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: end;
+      justify-content: space-between;
+      gap: var(--space-4);
+      margin-bottom: var(--space-8);
+    }
+
+    .section-title {
+      font-size: var(--text-2xl);
+      max-width: 18ch;
+    }
+
+    .section-subtitle {
+      color: var(--color-text-muted);
+      max-width: 56ch;
+      font-size: var(--text-base);
+    }
+
+    .persons-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+      gap: var(--space-5);
+    }
+
+    .persons-grid[data-view="list"] {
+      grid-template-columns: 1fr;
+    }
+
+    .person-card {
+      position: relative;
+      display: grid;
+      gap: var(--space-5);
+      padding: var(--space-6);
+      border-radius: var(--radius-xl);
+      border: 1px solid oklch(from var(--color-text) l c h / 0.12);
+      background:
+        linear-gradient(180deg, color-mix(in oklab, var(--color-surface-2) 86%, transparent), color-mix(in oklab, var(--color-surface) 100%, transparent));
+      box-shadow: var(--shadow-sm);
+      content-visibility: auto;
+      contain-intrinsic-size: 420px;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .person-card::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--color-primary), color-mix(in oklab, var(--color-gold) 70%, var(--color-primary)));
+      opacity: 0.9;
+    }
+
+    .person-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .person-top {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: var(--space-4);
+      align-items: start;
+    }
+
+    .person-avatar {
+      width: 4rem;
+      height: 4rem;
+      border-radius: var(--radius-full);
+      display: grid;
+      place-items: center;
+      background: color-mix(in oklab, var(--color-primary) 14%, var(--color-surface-offset));
+      border: 1px solid color-mix(in oklab, var(--color-primary) 28%, var(--color-border));
+      color: var(--color-primary-active);
+      font-weight: 700;
+      font-size: var(--text-lg);
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+
+    .person-name {
+      font-size: var(--text-xl);
+      margin-bottom: var(--space-2);
+    }
+
+    .person-altname {
+      color: var(--color-text-muted);
+      font-size: var(--text-sm);
+    }
+
+    .person-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 0 var(--space-3);
+      border-radius: var(--radius-full);
+      font-size: var(--text-xs);
+      letter-spacing: 0.04em;
+      border: 1px solid oklch(from var(--color-text) l c h / 0.1);
+      background: var(--color-surface-offset);
+      color: var(--color-text-muted);
+    }
+
+    .badge.primary {
+      background: color-mix(in oklab, var(--color-primary) 12%, var(--color-surface));
+      color: var(--color-primary-active);
+      border-color: color-mix(in oklab, var(--color-primary) 28%, var(--color-border));
+    }
+
+    .badge.gold {
+      background: color-mix(in oklab, var(--color-gold) 14%, var(--color-surface));
+      color: color-mix(in oklab, var(--color-gold) 68%, var(--color-text));
+      border-color: color-mix(in oklab, var(--color-gold) 34%, var(--color-border));
+    }
+
+    .person-description {
+      color: var(--color-text);
+    }
+
+    .person-figure {
+      position: relative;
+      overflow: hidden;
+      border-radius: calc(var(--radius-xl) - var(--space-3));
+      aspect-ratio: 16 / 9;
+      border: 1px solid oklch(from var(--color-text) l c h / 0.1);
+      background:
+        linear-gradient(145deg, color-mix(in oklab, var(--color-primary) 10%, var(--color-surface-offset)), color-mix(in oklab, var(--color-gold) 12%, var(--color-surface-offset-2)));
+      display: grid;
+      place-items: center;
+      color: var(--color-text-muted);
+      padding: var(--space-4);
+      text-align: center;
+    }
+
+    .person-figure span {
+      font-size: var(--text-sm);
+    }
+
+    .person-details {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .detail-row {
+      display: grid;
+      grid-template-columns: minmax(7.5rem, 9rem) 1fr;
+      gap: var(--space-3);
+      padding-top: var(--space-3);
+      border-top: 1px solid oklch(from var(--color-text) l c h / 0.08);
+    }
+
+    .detail-row dt {
+      font-size: var(--text-xs);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-text-muted);
+    }
+
+    .detail-row dd,
+    .detail-row dd a {
+      color: var(--color-text);
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .detail-row dd a:hover {
+      color: var(--color-primary);
+    }
+
+    .person-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      padding-top: var(--space-2);
+    }
+
+    .person-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 var(--space-4);
+      border-radius: var(--radius-full);
+      text-decoration: none;
+      border: 1px solid oklch(from var(--color-text) l c h / 0.12);
+      background: var(--color-surface-2);
+      color: var(--color-text);
+    }
+
+    .person-link:hover {
+      background: color-mix(in oklab, var(--color-primary) 12%, var(--color-surface));
+      color: var(--color-primary-active);
+      border-color: color-mix(in oklab, var(--color-primary) 28%, var(--color-border));
+    }
+
+    .empty-state {
+      display: none;
+      padding: var(--space-16) var(--space-8);
+      text-align: center;
+      border-radius: var(--radius-xl);
+      background: var(--color-surface);
+      border: 1px solid oklch(from var(--color-text) l c h / 0.1);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .empty-state.is-visible {
+      display: grid;
+      gap: var(--space-3);
+      place-items: center;
+    }
+
+    .footer {
+      padding-block: var(--space-10);
+      border-top: 1px solid var(--color-divider);
+      background: color-mix(in oklab, var(--color-surface) 92%, transparent);
+    }
+
+    .footer-inner {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .footer p {
+      color: var(--color-text-muted);
+      font-size: var(--text-sm);
+    }
+
+    .llm-block {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .controls-grid {
+        grid-template-columns: minmax(16rem, 1fr) auto auto;
+      }
+
+      .hero-inner {
+        grid-template-columns: 1.45fr 0.9fr;
+      }
+
+      .persons-grid[data-view="list"] .person-card {
+        grid-template-columns: 1.15fr 1fr;
+        align-items: start;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .header-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .header-actions {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .person-top {
+        grid-template-columns: 1fr;
+      }
+
+      .detail-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "#collection-page",
+    "name": "Galatasaray 2026 Semantic Corpus",
+    "description": "Semantic Web and AI-ready corpus of historical persons from the Galatasaray 2026 dataset.",
+    "inLanguage": "en",
+    "isPartOf": {
+      "@type": "Dataset",
+      "@id": "#dataset",
+      "name": "GalatasarayTest26",
+      "description": "CSV dataset of historical persons rendered as a semantic corpus.",
+      "keywords": [
+        "Semantic Web",
+        "schema.org",
+        "Linked Open Data",
+        "RAG",
+        "GraphRAG",
+        "historical persons",
+        "Wikidata"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "@id": "#person-list",
+      "name": "Historical persons",
+      "numberOfItems": 8,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Person",
+            "@id": "#person-q202308",
+            "name": "Evliya Çelebi",
+            "description": "Explorer from the Ottoman Empire.",
+            "jobTitle": "explorer",
+            "nationality": "Ottoman Empire",
+            "identifier": "Wikidata:Q202308",
+            "sameAs": "https://www.wikidata.org/entity/Q202308",
+            "image": "Serafimovski - Evliya Çelebi.jpg",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "GalatasarayTest26 row"
+            },
+            "knowsAbout": ["exploration", "historical person", "semantic corpus"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Person",
+            "@id": "#person-q390123",
+            "name": "Kâtip Çelebi",
+            "description": "Economist from the Ottoman Empire.",
+            "jobTitle": "economist",
+            "nationality": "Ottoman Empire",
+            "identifier": "Wikidata:Q390123",
+            "sameAs": "https://www.wikidata.org/entity/Q390123",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "GalatasarayTest26 row"
+            },
+            "knowsAbout": ["economics", "historical person", "semantic corpus"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Person",
+            "@id": "#person-q401209",
+            "name": "Ahmet Cevdet Pasha",
+            "description": "Historian from the Ottoman Empire.",
+            "jobTitle": "historian",
+            "nationality": "Ottoman Empire",
+            "identifier": "Wikidata:Q401209",
+            "sameAs": "https://www.wikidata.org/entity/Q401209",
+            "image": "Ahmed Cevdet Pasha.jpg",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "GalatasarayTest26 row"
+            },
+            "knowsAbout": ["history", "historical person", "semantic corpus"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Person",
+            "@id": "#person-q743810",
+            "name": "Hezârfen Ahmet Çelebi",
+            "description": "Physicist from the Ottoman Empire.",
+            "jobTitle": "physicist",
+            "nationality": "Ottoman Empire",
+            "identifier": "Wikidata:Q743810",
+            "sameAs": "https://www.wikidata.org/entity/Q743810",
+            "image": "Hezârfen - Adem Başpınar.jpg",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "GalatasarayTest26 row"
+            },
+            "knowsAbout": ["physics", "historical person", "semantic corpus"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Person",
+            "@id": "#person-q1366693",
+            "name": "Halid Ziya Uşaklıgil",
+            "description": "Writer from the Ottoman Empire.",
+            "jobTitle": "writer",
+            "nationality": "Ottoman Empire",
+            "identifier": "Wikidata:Q1366693",
+            "sameAs": "https://www.wikidata.org/entity/Q1366693",
+            "image": "HalitZiya.jpg",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "GalatasarayTest26 row"
+            },
+            "knowsAbout": ["writing", "historical person", "semantic corpus"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Person",
+            "@id": "#person-q982848",
+            "name": "Orhan Veli Kanık",
+            "description": "Poet from Turkey.",
+            "jobTitle": "poet",
+            "nationality": "Turkey",
+            "identifier": "Wikidata:Q982848",
+            "sameAs": "https://www.wikidata.org/entity/Q982848",
+            "image": "Orhan Veli KANIK.jpg",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "GalatasarayTest26 row"
+            },
+            "knowsAbout": ["poetry", "historical person", "semantic corpus"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Person",
+            "@id": "#person-q200582",
+            "name": "Hayreddin Barbarossa",
+            "description": "Military officer from the Ottoman Empire.",
+            "jobTitle": "military officer",
+            "nationality": "Ottoman Empire",
+            "identifier": "Wikidata:Q200582",
+            "sameAs": "https://www.wikidata.org/entity/Q200582",
+            "image": "Contemporary Ottoman depiction of Barbarossa (in a reception with Suleiman I). Süleymanname, 1558.jpg",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "GalatasarayTest26 row"
+            },
+            "knowsAbout": ["military history", "historical person", "semantic corpus"]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Person",
+            "@id": "#person-q701714",
+            "name": "Claude Alexandre de Bonneval",
+            "description": "Military personnel from France.",
+            "jobTitle": "military personnel",
+            "nationality": "France",
+            "identifier": "Wikidata:Q701714",
+            "sameAs": "https://www.wikidata.org/entity/Q701714",
+            "image": "Bonneval-pasha.jpg",
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "name": "GalatasarayTest26 row"
+            },
+            "knowsAbout": ["military history", "historical person", "semantic corpus"]
+          }
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" itemscope itemtype="https://schema.org/WPHeader">
+    <div class="header-inner">
+      <a class="brand" href="#main-content" aria-label="Galatasaray 2026 Semantic Corpus home">
+        <svg class="brand-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <circle cx="32" cy="32" r="23" stroke="currentColor" stroke-width="2.5"></circle>
+          <path d="M18 22.5h28M18 41.5h28M24 16.5v31M40 16.5v31" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+          <circle cx="32" cy="32" r="6.75" fill="currentColor"></circle>
+        </svg>
+        <span class="brand-text">
+          <strong>Galatasaray 2026</strong>
+          <span>Semantic corpus · schema.org · LOD</span>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <button class="view-toggle" type="button" data-view-toggle aria-label="Switch card layout">
+          <span data-view-label>Grid view</span>
+        </button>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" itemscope itemtype="https://schema.org/CollectionPage">
+    <meta itemprop="name" content="Galatasaray 2026 Semantic Corpus">
+    <meta itemprop="description" content="Semantic Web and AI-ready corpus of historical persons from the Galatasaray 2026 dataset.">
+    <meta itemprop="inLanguage" content="en">
+
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <p class="hero-kicker">Human-readable · machine-readable · LLM-ready</p>
+          <h1 class="hero-title">Historical persons as a semantic corpus.</h1>
+          <p class="hero-copy">
+            A single-page HTML5 corpus transforming tabular data into structured semantic profiles with schema.org microdata, JSON-LD, entity identifiers, and retrieval-friendly textual signals for search, RAG, and GraphRAG systems.
+          </p>
+        </div>
+        <div class="hero-meta" aria-label="Dataset summary">
+          <div class="meta-pill">
+            <span class="label">Persons</span>
+            <span class="value" id="person-count">8</span>
+          </div>
+          <div class="meta-pill">
+            <span class="label">Countries</span>
+            <span class="value" id="country-count">3</span>
+          </div>
+          <div class="meta-pill">
+            <span class="label">Wikidata links</span>
+            <span class="value" id="wikidata-count">8</span>
+          </div>
+          <div class="meta-pill">
+            <span class="label">Occupations</span>
+            <span class="value" id="occupation-count">8</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls" aria-labelledby="discovery-heading">
+      <div class="section-inner">
+        <h2 id="discovery-heading" class="sr-only">Discovery controls</h2>
+        <div class="controls-grid">
+          <label class="search-wrap" for="person-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="M20 20l-3.5-3.5"></path>
+            </svg>
+            <span class="sr-only">Search persons</span>
+            <input id="person-search" class="search-input" type="search" placeholder="Search by name, occupation, country, identifier, or image filename" autocomplete="off">
+          </label>
+
+          <div class="filter-bar" id="occupation-filters" aria-label="Filter by occupation">
+            <button class="filter-chip" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-chip" type="button" data-filter="explorer" aria-pressed="false">Explorer</button>
+            <button class="filter-chip" type="button" data-filter="economist" aria-pressed="false">Economist</button>
+            <button class="filter-chip" type="button" data-filter="historian" aria-pressed="false">Historian</button>
+            <button class="filter-chip" type="button" data-filter="physicist" aria-pressed="false">Physicist</button>
+            <button class="filter-chip" type="button" data-filter="writer" aria-pressed="false">Writer</button>
+            <button class="filter-chip" type="button" data-filter="poet" aria-pressed="false">Poet</button>
+            <button class="filter-chip" type="button" data-filter="military officer" aria-pressed="false">Military officer</button>
+            <button class="filter-chip" type="button" data-filter="military personnel" aria-pressed="false">Military personnel</button>
+          </div>
+
+          <div class="filter-bar" id="country-filters" aria-label="Filter by country">
+            <button class="filter-chip" type="button" data-country="all" aria-pressed="true">All countries</button>
+            <button class="filter-chip" type="button" data-country="Ottoman Empire" aria-pressed="false">Ottoman Empire</button>
+            <button class="filter-chip" type="button" data-country="Turkey" aria-pressed="false">Turkey</button>
+            <button class="filter-chip" type="button" data-country="France" aria-pressed="false">France</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="corpus" aria-labelledby="persons-heading">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div>
+            <h2 id="persons-heading" class="section-title">All persons in the dataset</h2>
+            <p class="section-subtitle">
+              Each card exposes visible content for readers and structured properties for indexing, entity extraction, linked-data alignment, semantic enrichment, and downstream AI ingestion.
+            </p>
+          </div>
+        </div>
+
+        <div class="persons-grid" id="persons-grid" data-view="grid" itemprop="mainEntity" itemscope itemtype="https://schema.org/ItemList">
+          <meta itemprop="name" content="Historical persons">
+          <meta itemprop="numberOfItems" content="8">
+
+          <section
+            id="person-q202308"
+            class="person-card"
+            data-name="Evliya Çelebi"
+            data-occupation="explorer"
+            data-country="Ottoman Empire"
+            data-search="Evliya Çelebi explorer Ottoman Empire Q202308 Serafimovski - Evliya Çelebi.jpg"
+            itemscope
+            itemprop="itemListElement"
+            itemtype="https://schema.org/Person">
+            <meta itemprop="position" content="1">
+            <link itemprop="sameAs" href="https://www.wikidata.org/entity/Q202308">
+            <meta itemprop="identifier" content="Wikidata:Q202308">
+            <meta itemprop="name" content="Evliya Çelebi">
+            <meta itemprop="description" content="Explorer from the Ottoman Empire.">
+            <meta itemprop="nationality" content="Ottoman Empire">
+            <meta itemprop="jobTitle" content="explorer">
+            <meta itemprop="image" content="Serafimovski - Evliya Çelebi.jpg">
+            <meta itemprop="alternateName" content="">
+            <meta itemprop="knowsAbout" content="exploration">
+            <meta itemprop="knowsAbout" content="historical person">
+            <meta itemprop="knowsAbout" content="semantic corpus">
+            <meta itemprop="subjectOf" content="GalatasarayTest26 row">
+
+            <div class="person-top">
+              <div class="person-avatar" aria-hidden="true">EÇ</div>
+              <div>
+                <h3 class="person-name" itemprop="name">Evliya Çelebi</h3>
+                <p class="person-altname" itemprop="alternateName" aria-label="Alternative name"></p>
+                <div class="person-badges">
+                  <span class="badge primary" itemprop="jobTitle">Explorer</span>
+                  <span class="badge gold" itemprop="nationality">Ottoman Empire</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="person-description" itemprop="description">Explorer from the Ottoman Empire.</p>
+
+            <figure class="person-figure" aria-label="Image reference for Evliya Çelebi">
+              <span itemprop="image">Serafimovski - Evliya Çelebi.jpg</span>
+            </figure>
+
+            <dl class="person-details">
+              <div class="detail-row">
+                <dt>Wikidata</dt>
+                <dd><a href="https://www.wikidata.org/entity/Q202308" itemprop="sameAs" target="_blank" rel="noopener noreferrer">Q202308</a></dd>
+              </div>
+              <div class="detail-row">
+                <dt>Identifier</dt>
+                <dd itemprop="identifier">Wikidata:Q202308</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Occupation</dt>
+                <dd itemprop="jobTitle">explorer</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Nationality</dt>
+                <dd itemprop="nationality">Ottoman Empire</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Image file</dt>
+                <dd itemprop="image">Serafimovski - Evliya Çelebi.jpg</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Knows about</dt>
+                <dd itemprop="knowsAbout">exploration; historical person; semantic corpus</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Subject of</dt>
+                <dd itemprop="subjectOf">GalatasarayTest26 row</dd>
+              </div>
+            </dl>
+
+            <div class="person-links">
+              <a class="person-link" href="https://www.wikidata.org/entity/Q202308" target="_blank" rel="noopener noreferrer">Open Wikidata</a>
+            </div>
+          </section>
+
+          <section
+            id="person-q390123"
+            class="person-card"
+            data-name="Kâtip Çelebi"
+            data-occupation="economist"
+            data-country="Ottoman Empire"
+            data-search="Kâtip Çelebi economist Ottoman Empire Q390123"
+            itemscope
+            itemprop="itemListElement"
+            itemtype="https://schema.org/Person">
+            <meta itemprop="position" content="2">
+            <link itemprop="sameAs" href="https://www.wikidata.org/entity/Q390123">
+            <meta itemprop="identifier" content="Wikidata:Q390123">
+            <meta itemprop="name" content="Kâtip Çelebi">
+            <meta itemprop="description" content="Economist from the Ottoman Empire.">
+            <meta itemprop="nationality" content="Ottoman Empire">
+            <meta itemprop="jobTitle" content="economist">
+            <meta itemprop="alternateName" content="">
+            <meta itemprop="knowsAbout" content="economics">
+            <meta itemprop="knowsAbout" content="historical person">
+            <meta itemprop="knowsAbout" content="semantic corpus">
+            <meta itemprop="subjectOf" content="GalatasarayTest26 row">
+
+            <div class="person-top">
+              <div class="person-avatar" aria-hidden="true">KÇ</div>
+              <div>
+                <h3 class="person-name" itemprop="name">Kâtip Çelebi</h3>
+                <p class="person-altname" itemprop="alternateName" aria-label="Alternative name"></p>
+                <div class="person-badges">
+                  <span class="badge primary" itemprop="jobTitle">Economist</span>
+                  <span class="badge gold" itemprop="nationality">Ottoman Empire</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="person-description" itemprop="description">Economist from the Ottoman Empire.</p>
+
+            <figure class="person-figure" aria-label="No image filename available for Kâtip Çelebi">
+              <span>No image filename available in the dataset.</span>
+            </figure>
+
+            <dl class="person-details">
+              <div class="detail-row">
+                <dt>Wikidata</dt>
+                <dd><a href="https://www.wikidata.org/entity/Q390123" itemprop="sameAs" target="_blank" rel="noopener noreferrer">Q390123</a></dd>
+              </div>
+              <div class="detail-row">
+                <dt>Identifier</dt>
+                <dd itemprop="identifier">Wikidata:Q390123</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Occupation</dt>
+                <dd itemprop="jobTitle">economist</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Nationality</dt>
+                <dd itemprop="nationality">Ottoman Empire</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Knows about</dt>
+                <dd itemprop="knowsAbout">economics; historical person; semantic corpus</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Subject of</dt>
+                <dd itemprop="subjectOf">GalatasarayTest26 row</dd>
+              </div>
+            </dl>
+
+            <div class="person-links">
+              <a class="person-link" href="https://www.wikidata.org/entity/Q390123" target="_blank" rel="noopener noreferrer">Open Wikidata</a>
+            </div>
+          </section>
+
+          <section
+            id="person-q401209"
+            class="person-card"
+            data-name="Ahmet Cevdet Pasha"
+            data-occupation="historian"
+            data-country="Ottoman Empire"
+            data-search="Ahmet Cevdet Pasha historian Ottoman Empire Q401209 Ahmed Cevdet Pasha.jpg"
+            itemscope
+            itemprop="itemListElement"
+            itemtype="https://schema.org/Person">
+            <meta itemprop="position" content="3">
+            <link itemprop="sameAs" href="https://www.wikidata.org/entity/Q401209">
+            <meta itemprop="identifier" content="Wikidata:Q401209">
+            <meta itemprop="name" content="Ahmet Cevdet Pasha">
+            <meta itemprop="description" content="Historian from the Ottoman Empire.">
+            <meta itemprop="nationality" content="Ottoman Empire">
+            <meta itemprop="jobTitle" content="historian">
+            <meta itemprop="image" content="Ahmed Cevdet Pasha.jpg">
+            <meta itemprop="alternateName" content="">
+            <meta itemprop="knowsAbout" content="history">
+            <meta itemprop="knowsAbout" content="historical person">
+            <meta itemprop="knowsAbout" content="semantic corpus">
+            <meta itemprop="subjectOf" content="GalatasarayTest26 row">
+
+            <div class="person-top">
+              <div class="person-avatar" aria-hidden="true">AC</div>
+              <div>
+                <h3 class="person-name" itemprop="name">Ahmet Cevdet Pasha</h3>
+                <p class="person-altname" itemprop="alternateName" aria-label="Alternative name"></p>
+                <div class="person-badges">
+                  <span class="badge primary" itemprop="jobTitle">Historian</span>
+                  <span class="badge gold" itemprop="nationality">Ottoman Empire</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="person-description" itemprop="description">Historian from the Ottoman Empire.</p>
+
+            <figure class="person-figure" aria-label="Image reference for Ahmet Cevdet Pasha">
+              <span itemprop="image">Ahmed Cevdet Pasha.jpg</span>
+            </figure>
+
+            <dl class="person-details">
+              <div class="detail-row">
+                <dt>Wikidata</dt>
+                <dd><a href="https://www.wikidata.org/entity/Q401209" itemprop="sameAs" target="_blank" rel="noopener noreferrer">Q401209</a></dd>
+              </div>
+              <div class="detail-row">
+                <dt>Identifier</dt>
+                <dd itemprop="identifier">Wikidata:Q401209</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Occupation</dt>
+                <dd itemprop="jobTitle">historian</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Nationality</dt>
+                <dd itemprop="nationality">Ottoman Empire</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Image file</dt>
+                <dd itemprop="image">Ahmed Cevdet Pasha.jpg</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Knows about</dt>
+                <dd itemprop="knowsAbout">history; historical person; semantic corpus</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Subject of</dt>
+                <dd itemprop="subjectOf">GalatasarayTest26 row</dd>
+              </div>
+            </dl>
+
+            <div class="person-links">
+              <a class="person-link" href="https://www.wikidata.org/entity/Q401209" target="_blank" rel="noopener noreferrer">Open Wikidata</a>
+            </div>
+          </section>
+
+          <section
+            id="person-q743810"
+            class="person-card"
+            data-name="Hezârfen Ahmet Çelebi"
+            data-occupation="physicist"
+            data-country="Ottoman Empire"
+            data-search="Hezârfen Ahmet Çelebi physicist Ottoman Empire Q743810 Hezârfen - Adem Başpınar.jpg"
+            itemscope
+            itemprop="itemListElement"
+            itemtype="https://schema.org/Person">
+            <meta itemprop="position" content="4">
+            <link itemprop="sameAs" href="https://www.wikidata.org/entity/Q743810">
+            <meta itemprop="identifier" content="Wikidata:Q743810">
+            <meta itemprop="name" content="Hezârfen Ahmet Çelebi">
+            <meta itemprop="description" content="Physicist from the Ottoman Empire.">
+            <meta itemprop="nationality" content="Ottoman Empire">
+            <meta itemprop="jobTitle" content="physicist">
+            <meta itemprop="image" content="Hezârfen - Adem Başpınar.jpg">
+            <meta itemprop="alternateName" content="">
+            <meta itemprop="knowsAbout" content="physics">
+            <meta itemprop="knowsAbout" content="historical person">
+            <meta itemprop="knowsAbout" content="semantic corpus">
+            <meta itemprop="subjectOf" content="GalatasarayTest26 row">
+
+            <div class="person-top">
+              <div class="person-avatar" aria-hidden="true">HA</div>
+              <div>
+                <h3 class="person-name" itemprop="name">Hezârfen Ahmet Çelebi</h3>
+                <p class="person-altname" itemprop="alternateName" aria-label="Alternative name"></p>
+                <div class="person-badges">
+                  <span class="badge primary" itemprop="jobTitle">Physicist</span>
+                  <span class="badge gold" itemprop="nationality">Ottoman Empire</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="person-description" itemprop="description">Physicist from the Ottoman Empire.</p>
+
+            <figure class="person-figure" aria-label="Image reference for Hezârfen Ahmet Çelebi">
+              <span itemprop="image">Hezârfen - Adem Başpınar.jpg</span>
+            </figure>
+
+            <dl class="person-details">
+              <div class="detail-row">
+                <dt>Wikidata</dt>
+                <dd><a href="https://www.wikidata.org/entity/Q743810" itemprop="sameAs" target="_blank" rel="noopener noreferrer">Q743810</a></dd>
+              </div>
+              <div class="detail-row">
+                <dt>Identifier</dt>
+                <dd itemprop="identifier">Wikidata:Q743810</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Occupation</dt>
+                <dd itemprop="jobTitle">physicist</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Nationality</dt>
+                <dd itemprop="nationality">Ottoman Empire</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Image file</dt>
+                <dd itemprop="image">Hezârfen - Adem Başpınar.jpg</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Knows about</dt>
+                <dd itemprop="knowsAbout">physics; historical person; semantic corpus</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Subject of</dt>
+                <dd itemprop="subjectOf">GalatasarayTest26 row</dd>
+              </div>
+            </dl>
+
+            <div class="person-links">
+              <a class="person-link" href="https://www.wikidata.org/entity/Q743810" target="_blank" rel="noopener noreferrer">Open Wikidata</a>
+            </div>
+          </section>
+
+          <section
+            id="person-q1366693"
+            class="person-card"
+            data-name="Halid Ziya Uşaklıgil"
+            data-occupation="writer"
+            data-country="Ottoman Empire"
+            data-search="Halid Ziya Uşaklıgil writer Ottoman Empire Q1366693 HalitZiya.jpg"
+            itemscope
+            itemprop="itemListElement"
+            itemtype="https://schema.org/Person">
+            <meta itemprop="position" content="5">
+            <link itemprop="sameAs" href="https://www.wikidata.org/entity/Q1366693">
+            <meta itemprop="identifier" content="Wikidata:Q1366693">
+            <meta itemprop="name" content="Halid Ziya Uşaklıgil">
+            <meta itemprop="description" content="Writer from the Ottoman Empire.">
+            <meta itemprop="nationality" content="Ottoman Empire">
+            <meta itemprop="jobTitle" content="writer">
+            <meta itemprop="image" content="HalitZiya.jpg">
+            <meta itemprop="alternateName" content="">
+            <meta itemprop="knowsAbout" content="writing">
+            <meta itemprop="knowsAbout" content="historical person">
+            <meta itemprop="knowsAbout" content="semantic corpus">
+            <meta itemprop="subjectOf" content="GalatasarayTest26 row">
+
+            <div class="person-top">
+              <div class="person-avatar" aria-hidden="true">HZ</div>
+              <div>
+                <h3 class="person-name" itemprop="name">Halid Ziya Uşaklıgil</h3>
+                <p class="person-altname" itemprop="alternateName" aria-label="Alternative name"></p>
+                <div class="person-badges">
+                  <span class="badge primary" itemprop="jobTitle">Writer</span>
+                  <span class="badge gold" itemprop="nationality">Ottoman Empire</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="person-description" itemprop="description">Writer from the Ottoman Empire.</p>
+
+            <figure class="person-figure" aria-label="Image reference for Halid Ziya Uşaklıgil">
+              <span itemprop="image">HalitZiya.jpg</span>
+            </figure>
+
+            <dl class="person-details">
+              <div class="detail-row">
+                <dt>Wikidata</dt>
+                <dd><a href="https://www.wikidata.org/entity/Q1366693" itemprop="sameAs" target="_blank" rel="noopener noreferrer">Q1366693</a></dd>
+              </div>
+              <div class="detail-row">
+                <dt>Identifier</dt>
+                <dd itemprop="identifier">Wikidata:Q1366693</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Occupation</dt>
+                <dd itemprop="jobTitle">writer</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Nationality</dt>
+                <dd itemprop="nationality">Ottoman Empire</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Image file</dt>
+                <dd itemprop="image">HalitZiya.jpg</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Knows about</dt>
+                <dd itemprop="knowsAbout">writing; historical person; semantic corpus</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Subject of</dt>
+                <dd itemprop="subjectOf">GalatasarayTest26 row</dd>
+              </div>
+            </dl>
+
+            <div class="person-links">
+              <a class="person-link" href="https://www.wikidata.org/entity/Q1366693" target="_blank" rel="noopener noreferrer">Open Wikidata</a>
+            </div>
+          </section>
+
+          <section
+            id="person-q982848"
+            class="person-card"
+            data-name="Orhan Veli Kanık"
+            data-occupation="poet"
+            data-country="Turkey"
+            data-search="Orhan Veli Kanık poet Turkey Q982848 Orhan Veli KANIK.jpg"
+            itemscope
+            itemprop="itemListElement"
+            itemtype="https://schema.org/Person">
+            <meta itemprop="position" content="6">
+            <link itemprop="sameAs" href="https://www.wikidata.org/entity/Q982848">
+            <meta itemprop="identifier" content="Wikidata:Q982848">
+            <meta itemprop="name" content="Orhan Veli Kanık">
+            <meta itemprop="description" content="Poet from Turkey.">
+            <meta itemprop="nationality" content="Turkey">
+            <meta itemprop="jobTitle" content="poet">
+            <meta itemprop="image" content="Orhan Veli KANIK.jpg">
+            <meta itemprop="alternateName" content="">
+            <meta itemprop="knowsAbout" content="poetry">
+            <meta itemprop="knowsAbout" content="historical person">
+            <meta itemprop="knowsAbout" content="semantic corpus">
+            <meta itemprop="subjectOf" content="GalatasarayTest26 row">
+
+            <div class="person-top">
+              <div class="person-avatar" aria-hidden="true">OV</div>
+              <div>
+                <h3 class="person-name" itemprop="name">Orhan Veli Kanık</h3>
+                <p class="person-altname" itemprop="alternateName" aria-label="Alternative name"></p>
+                <div class="person-badges">
+                  <span class="badge primary" itemprop="jobTitle">Poet</span>
+                  <span class="badge gold" itemprop="nationality">Turkey</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="person-description" itemprop="description">Poet from Turkey.</p>
+
+            <figure class="person-figure" aria-label="Image reference for Orhan Veli Kanık">
+              <span itemprop="image">Orhan Veli KANIK.jpg</span>
+            </figure>
+
+            <dl class="person-details">
+              <div class="detail-row">
+                <dt>Wikidata</dt>
+                <dd><a href="https://www.wikidata.org/entity/Q982848" itemprop="sameAs" target="_blank" rel="noopener noreferrer">Q982848</a></dd>
+              </div>
+              <div class="detail-row">
+                <dt>Identifier</dt>
+                <dd itemprop="identifier">Wikidata:Q982848</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Occupation</dt>
+                <dd itemprop="jobTitle">poet</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Nationality</dt>
+                <dd itemprop="nationality">Turkey</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Image file</dt>
+                <dd itemprop="image">Orhan Veli KANIK.jpg</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Knows about</dt>
+                <dd itemprop="knowsAbout">poetry; historical person; semantic corpus</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Subject of</dt>
+                <dd itemprop="subjectOf">GalatasarayTest26 row</dd>
+              </div>
+            </dl>
+
+            <div class="person-links">
+              <a class="person-link" href="https://www.wikidata.org/entity/Q982848" target="_blank" rel="noopener noreferrer">Open Wikidata</a>
+            </div>
+          </section>
+
+          <section
+            id="person-q200582"
+            class="person-card"
+            data-name="Hayreddin Barbarossa"
+            data-occupation="military officer"
+            data-country="Ottoman Empire"
+            data-search="Hayreddin Barbarossa military officer Ottoman Empire Q200582 Contemporary Ottoman depiction of Barbarossa (in a reception with Suleiman I). Süleymanname, 1558.jpg"
+            itemscope
+            itemprop="itemListElement"
+            itemtype="https://schema.org/Person">
+            <meta itemprop="position" content="7">
+            <link itemprop="sameAs" href="https://www.wikidata.org/entity/Q200582">
+            <meta itemprop="identifier" content="Wikidata:Q200582">
+            <meta itemprop="name" content="Hayreddin Barbarossa">
+            <meta itemprop="description" content="Military officer from the Ottoman Empire.">
+            <meta itemprop="nationality" content="Ottoman Empire">
+            <meta itemprop="jobTitle" content="military officer">
+            <meta itemprop="image" content="Contemporary Ottoman depiction of Barbarossa (in a reception with Suleiman I). Süleymanname, 1558.jpg">
+            <meta itemprop="alternateName" content="">
+            <meta itemprop="knowsAbout" content="military history">
+            <meta itemprop="knowsAbout" content="historical person">
+            <meta itemprop="knowsAbout" content="semantic corpus">
+            <meta itemprop="subjectOf" content="GalatasarayTest26 row">
+
+            <div class="person-top">
+              <div class="person-avatar" aria-hidden="true">HB</div>
+              <div>
+                <h3 class="person-name" itemprop="name">Hayreddin Barbarossa</h3>
+                <p class="person-altname" itemprop="alternateName" aria-label="Alternative name"></p>
+                <div class="person-badges">
+                  <span class="badge primary" itemprop="jobTitle">Military officer</span>
+                  <span class="badge gold" itemprop="nationality">Ottoman Empire</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="person-description" itemprop="description">Military officer from the Ottoman Empire.</p>
+
+            <figure class="person-figure" aria-label="Image reference for Hayreddin Barbarossa">
+              <span itemprop="image">Contemporary Ottoman depiction of Barbarossa (in a reception with Suleiman I). Süleymanname, 1558.jpg</span>
+            </figure>
+
+            <dl class="person-details">
+              <div class="detail-row">
+                <dt>Wikidata</dt>
+                <dd><a href="https://www.wikidata.org/entity/Q200582" itemprop="sameAs" target="_blank" rel="noopener noreferrer">Q200582</a></dd>
+              </div>
+              <div class="detail-row">
+                <dt>Identifier</dt>
+                <dd itemprop="identifier">Wikidata:Q200582</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Occupation</dt>
+                <dd itemprop="jobTitle">military officer</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Nationality</dt>
+                <dd itemprop="nationality">Ottoman Empire</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Image file</dt>
+                <dd itemprop="image">Contemporary Ottoman depiction of Barbarossa (in a reception with Suleiman I). Süleymanname, 1558.jpg</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Knows about</dt>
+                <dd itemprop="knowsAbout">military history; historical person; semantic corpus</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Subject of</dt>
+                <dd itemprop="subjectOf">GalatasarayTest26 row</dd>
+              </div>
+            </dl>
+
+            <div class="person-links">
+              <a class="person-link" href="https://www.wikidata.org/entity/Q200582" target="_blank" rel="noopener noreferrer">Open Wikidata</a>
+            </div>
+          </section>
+
+          <section
+            id="person-q701714"
+            class="person-card"
+            data-name="Claude Alexandre de Bonneval"
+            data-occupation="military personnel"
+            data-country="France"
+            data-search="Claude Alexandre de Bonneval military personnel France Q701714 Bonneval-pasha.jpg"
+            itemscope
+            itemprop="itemListElement"
+            itemtype="https://schema.org/Person">
+            <meta itemprop="position" content="8">
+            <link itemprop="sameAs" href="https://www.wikidata.org/entity/Q701714">
+            <meta itemprop="identifier" content="Wikidata:Q701714">
+            <meta itemprop="name" content="Claude Alexandre de Bonneval">
+            <meta itemprop="description" content="Military personnel from France.">
+            <meta itemprop="nationality" content="France">
+            <meta itemprop="jobTitle" content="military personnel">
+            <meta itemprop="image" content="Bonneval-pasha.jpg">
+            <meta itemprop="alternateName" content="">
+            <meta itemprop="knowsAbout" content="military history">
+            <meta itemprop="knowsAbout" content="historical person">
+            <meta itemprop="knowsAbout" content="semantic corpus">
+            <meta itemprop="subjectOf" content="GalatasarayTest26 row">
+
+            <div class="person-top">
+              <div class="person-avatar" aria-hidden="true">CB</div>
+              <div>
+                <h3 class="person-name" itemprop="name">Claude Alexandre de Bonneval</h3>
+                <p class="person-altname" itemprop="alternateName" aria-label="Alternative name"></p>
+                <div class="person-badges">
+                  <span class="badge primary" itemprop="jobTitle">Military personnel</span>
+                  <span class="badge gold" itemprop="nationality">France</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="person-description" itemprop="description">Military personnel from France.</p>
+
+            <figure class="person-figure" aria-label="Image reference for Claude Alexandre de Bonneval">
+              <span itemprop="image">Bonneval-pasha.jpg</span>
+            </figure>
+
+            <dl class="person-details">
+              <div class="detail-row">
+                <dt>Wikidata</dt>
+                <dd><a href="https://www.wikidata.org/entity/Q701714" itemprop="sameAs" target="_blank" rel="noopener noreferrer">Q701714</a></dd>
+              </div>
+              <div class="detail-row">
+                <dt>Identifier</dt>
+                <dd itemprop="identifier">Wikidata:Q701714</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Occupation</dt>
+                <dd itemprop="jobTitle">military personnel</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Nationality</dt>
+                <dd itemprop="nationality">France</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Image file</dt>
+                <dd itemprop="image">Bonneval-pasha.jpg</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Knows about</dt>
+                <dd itemprop="knowsAbout">military history; historical person; semantic corpus</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Subject of</dt>
+                <dd itemprop="subjectOf">GalatasarayTest26 row</dd>
+              </div>
+            </dl>
+
+            <div class="person-links">
+              <a class="person-link" href="https://www.wikidata.org/entity/Q701714" target="_blank" rel="noopener noreferrer">Open Wikidata</a>
+            </div>
+          </section>
+        </div>
+
+        <div id="empty-state" class="empty-state" aria-live="polite">
+          <h3>No matching persons</h3>
+          <p>Try a broader search term or reset the active filters.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="llm-block" aria-hidden="true">
+      <article>
+        <h2>Corpus normalization block</h2>
+        <p>Dataset source: GalatasarayTest26.csv.</p>
+        <p>Entities included: Evliya Çelebi; Kâtip Çelebi; Ahmet Cevdet Pasha; Hezârfen Ahmet Çelebi; Halid Ziya Uşaklıgil; Orhan Veli Kanık; Hayreddin Barbarossa; Claude Alexandre de Bonneval.</p>
+        <p>Occupations included: explorer; economist; historian; physicist; writer; poet; military officer; military personnel.</p>
+        <p>National contexts included: Ottoman Empire; Turkey; France.</p>
+        <p>External identifiers included: Wikidata Q202308; Q390123; Q401209; Q743810; Q1366693; Q982848; Q200582; Q701714.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer" itemscope itemtype="https://schema.org/WPFooter">
+    <div class="footer-inner">
+      <p>Galatasaray 2026 Semantic Corpus — single-page semantic edition with schema.org microdata, JSON-LD, and entity linking.</p>
+      <p>Designed for reading, indexing, linked-data interoperability, and AI retrieval workflows.</p>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const themeToggle = document.querySelector('[data-theme-toggle]');
+      const viewToggle = document.querySelector('[data-view-toggle]');
+      const viewLabel = document.querySelector('[data-view-label]');
+      const searchInput = document.getElementById('person-search');
+      const personsGrid = document.getElementById('persons-grid');
+      const emptyState = document.getElementById('empty-state');
+      const cards = [...document.querySelectorAll('.person-card')];
+      const occupationButtons = [...document.querySelectorAll('#occupation-filters .filter-chip')];
+      const countryButtons = [...document.querySelectorAll('#country-filters .filter-chip')];
+
+      let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      let currentView = 'grid';
+      let activeOccupation = 'all';
+      let activeCountry = 'all';
+
+      const moonIcon = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>';
+      const sunIcon = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg>';
+
+      const applyTheme = () => {
+        root.setAttribute('data-theme', theme);
+        themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        themeToggle.innerHTML = theme === 'dark' ? sunIcon : moonIcon;
+      };
+
+      const updateView = () => {
+        personsGrid.setAttribute('data-view', currentView);
+        viewLabel.textContent = currentView === 'grid' ? 'Grid view' : 'List view';
+        viewToggle.setAttribute('aria-label', currentView === 'grid' ? 'Switch to list layout' : 'Switch to grid layout');
+      };
+
+      const syncPressed = (buttons, activeValue, key) => {
+        buttons.forEach((button) => {
+          button.setAttribute('aria-pressed', String(button.dataset[key] === activeValue));
+        });
+      };
+
+      const filterCards = () => {
+        const query = searchInput.value.trim().toLowerCase();
+        let visible = 0;
+
+        cards.forEach((card) => {
+          const matchesText = card.dataset.search.toLowerCase().includes(query);
+          const matchesOccupation = activeOccupation === 'all' || card.dataset.occupation === activeOccupation;
+          const matchesCountry = activeCountry === 'all' || card.dataset.country === activeCountry;
+          const show = matchesText && matchesOccupation && matchesCountry;
+
+          card.hidden = !show;
+          if (show) visible += 1;
+        });
+
+        emptyState.classList.toggle('is-visible', visible === 0);
+      };
+
+      themeToggle.addEventListener('click', () => {
+        theme = theme === 'dark' ? 'light' : 'dark';
+        applyTheme();
+      });
+
+      viewToggle.addEventListener('click', () => {
+        currentView = currentView === 'grid' ? 'list' : 'grid';
+        updateView();
+      });
+
+      searchInput.addEventListener('input', filterCards);
+
+      occupationButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          activeOccupation = button.dataset.filter;
+          syncPressed(occupationButtons, activeOccupation, 'filter');
+          filterCards();
+        });
+      });
+
+      countryButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          activeCountry = button.dataset.country;
+          syncPressed(countryButtons, activeCountry, 'country');
+          filterCards();
+        });
+      });
+
+      applyTheme();
+      updateView();
+      filterCards();
+    })();
+  </script>
+</body>
+</html>
