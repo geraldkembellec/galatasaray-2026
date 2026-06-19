@@ -32,14 +32,18 @@ Each row represents one historical person.
 Generate one semantic card per person.
 Extract and display all available fields.
 
-  - ``` <section
-    ```  class="person-card"
-    ```      itemscope
-     ```     itemtype="https://schema.org/Person">
-  
+``` html
+ <section
+  class="person-card"
+         itemscope
+         itemtype="https://schema.org/Person">
+```
+
 If a Wikidata identifier is present, automatically create:  
-  - ``` <link itemprop="sameAs" href="https://www.wikidata.org/entity/QXXXXXX">
-  - ``` <meta itemprop="identifier" content="Wikidata:QXXXXXX">
+``` html
+ <link itemprop="sameAs" href="https://www.wikidata.org/entity/QXXXXXX">
+ <meta itemprop="identifier" content="Wikidata:QXXXXXX">
+```
 
 Include whenever available:
 ```html  itemprop="name"
