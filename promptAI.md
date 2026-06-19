@@ -16,15 +16,17 @@ The page must be simultaneously:
 * compatible with Linked Open Data principles.
 
 ## Dataset Processing
-Read every row of the CSV file.
 Use : 
 ``` HTML
   <!DOCTYPE html> <html lang="en">
-``` 
+```
+
+Read every row of the CSV file.
+
 Each row represents one historical person.
 Generate one semantic card per person.
 Extract and display all available fields.
 If a Wikidata identifier is present, automatically create:  
-  - <link itemprop="sameAs" href="https://www.wikidata.org/entity/QXXXXXX">
-  - <meta itemprop="identifier" content="Wikidata:QXXXXXX">
+  - ``` <link itemprop="sameAs" href="https://www.wikidata.org/entity/QXXXXXX">
+  - ``` <meta itemprop="identifier" content="Wikidata:QXXXXXX">
   - 
