@@ -1,7 +1,7 @@
 # galatasaray-2026
 ## *Digital Humanity Workshop* / *Linked open data* et culture
 
-L'ojectif est de présenter des informations des humanités issues d'un corpus collaboratif initialement très pauvre et incomplet, mais qui va être augmenté, qualifé, structuré et validé par des actions combinées d'humains et de récupération automatisée de contenus issues de Wikidata.
+L'ojectif est de présenter des informations des humanités issues d'un corpus collaboratif initialement très pauvre et incomplet, mais qui va être augmenté, qualifé, structuré et validé par des actions combinées d'humains et de récupération automatisée de contenus issus de Wikidata.
 
 Nous allons réaliser un *pipeline* en humanités numériques et données culturelles [GLAM](https://fr.wikipedia.org/wiki/GLAM_(culture) '*Galleries, Libraries, Archives and Museums*' ) qui soit compréhensible et documenté à la fois pour les humains et les IA (en contexte de [RAG](https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9ration_%C3%A0_enrichissement_contextuel 'Génération à enrichissement contextuel')).
 
@@ -43,9 +43,7 @@ Les jeux seront publiés ici :
 
 On mettra les données en formes avec une IA sous la forme de microdonnées ou de *json-ld* (... et on va vérifier avec [OSDS](https://osds.openlinksw.com/) et le [validateur de schema.org](https://validator.schema.org/)).
 
-Puis on intègre tout ça dans une page Web publiée en ligne. 
-
-On part d'une simple page : [ttps://geraldkembellec.github.io/siel2026/](https://geraldkembellec.github.io/galatasaray-2026/)
+Puis on intègre tout ça dans une page Web publiée en ligne (https://geraldkembellec.github.io/galatasaray-2026/)](https://geraldkembellec.github.io/galatasaray-2026/)
 On la vérifie avec *OSDS*.
 
 Et après, on fait un agent IA qui fait ça à notre place?
