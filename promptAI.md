@@ -20,7 +20,12 @@ Use :
 ``` HTML
   <!DOCTYPE html> <html lang="en">
 ```
-
+and
+``` HTML
+<header>
+<main>
+<footer>
+```
 Read every row of the CSV file.
 
 Each row represents one historical person.
