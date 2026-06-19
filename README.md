@@ -5,7 +5,6 @@ L'ojectif est de présenter des informations des humanités issues d'un corpus c
 
 Nous allons réaliser un *pipeline* en humanités numériques et données culturelles [GLAM](https://fr.wikipedia.org/wiki/GLAM_(culture) '*Galleries, Libraries, Archives and Museums*' ) qui soit compréhensible et documenté à la fois pour les humains et les IA (en contexte de [RAG](https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9ration_%C3%A0_enrichissement_contextuel 'Génération à enrichissement contextuel')).
 
-
 ## Nous allons mobiliser pour cela :
 - Les autorités : ISNI, ORCID...
 - Le modèle du Web sémantique, le RDF : Sujet, Predicat, Objet [https://fr.wikipedia.org/wiki/Resource_Description_Framework](https://fr.wikipedia.org/wiki/Resource_Description_Framework)
@@ -48,8 +47,10 @@ Les jeux seront publiés ici :
 
 On mettra les données en formes avec une IA sous la forme de microdonnées ou de *json-ld* (... et on va vérifier avec [OSDS](https://osds.openlinksw.com/) et le [validateur de schema.org](https://validator.schema.org/)).
 
-Puis on intègre tout ça dans une page Web publiée en ligne. On la vérifie.
+Puis on intègre tout ça dans une page Web publiée en ligne. On la vérifie avec *OSDS*.
 
 Et après, on fait un agent IA qui fait ça à notre place?
 Pour mieux comprendre : 
 [https://shs.cairn.info/revue-hermes-la-revue-2021-1-page-145](https://shs.cairn.info/revue-hermes-la-revue-2021-1-page-145)
+
+
