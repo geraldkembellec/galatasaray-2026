@@ -1,4 +1,4 @@
-#Prompt
+# Prompt
 
 Create a complete, production-ready HTML5 page from the dataset: https://github.com/geraldkembellec/galatasaray-2026/blob/main/GalatasarayTest26.csv
 The generated page must reproduce the spirit and visual quality of the project: https://geraldkembellec.github.io/master-ctm/m2/html-semantique/constance-de-salm.html with the same CSS
