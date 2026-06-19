@@ -61,4 +61,14 @@ Include whenever available:
   itemprop="knowsAbout"
   itemprop="subjectOf"
 ```
-  
+
+### Output
+Return:
+1. A complete HTML file.
+2. Embedded CSS.
+3. Embedded JavaScript.
+4. Embedded JSON-LD.
+5. Schema.org Microdata.
+6. No placeholders.
+7. No explanations.
+8. Only valid HTML code.
